@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Define variables
-private_key="~/.ssh/school"
-user="ubuntu"
-server_ip="172.22.180.159"
-
 # Connect to the server using ssh
-ssh -i "$private_key" "$user@$server_ip"
+ssh -i ~/.ssh/school ubuntu@172.22.180.159
 
