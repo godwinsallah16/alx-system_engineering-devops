@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # SSH Config File
 #
 Host web-01
