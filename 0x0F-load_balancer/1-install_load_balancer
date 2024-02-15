@@ -40,8 +40,8 @@ frontend skyplus-tech-frontend
 
 backend skyplus-tech-backend
     balance roundrobin
-    server 310095-web-01 18.233.62.178:80 check
-    server 310095-web-02 34.229.66.192:80 check
+    server 310095-web-01 54.165.175.218:80 check
+    server 310095-web-02 34.207.62.39:80 check
 "
 
 # shellcheck disable=SC2154
